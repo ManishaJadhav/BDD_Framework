@@ -1,0 +1,164 @@
+[
+  {
+    "source": "^user navigates to \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user navigates to \"http://egifts.atlantickw.com/login\"",
+        "aggregatedDurations": {
+          "average": 19.861575204,
+          "median": 19.861575204
+        },
+        "durations": [
+          {
+            "duration": 19.861575204,
+            "location": "New_Login.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Registration should be successful$",
+    "steps": [
+      {
+        "name": "Registration should be successful",
+        "aggregatedDurations": {
+          "average": 2.238182646,
+          "median": 2.238182646
+        },
+        "durations": [
+          {
+            "duration": 2.238182646,
+            "location": "New_Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user navigates to Registration URL \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user navigates to Registration URL \"http://egifts.atlantickw.com/new-account\"",
+        "aggregatedDurations": {
+          "average": 71.25759014,
+          "median": 71.25759014
+        },
+        "durations": [
+          {
+            "duration": 71.25759014,
+            "location": "New_Login.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter valid data as firstname as \"([^\"]*)\", Lastname as \"([^\"]*)\", Mobilenumber as \"([^\"]*)\",Email as \"([^\"]*)\", Password \"([^\"]*)\" and ConfirmPassword \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enter valid data as firstname as \"Test3\", Lastname as \"Test3\", Mobilenumber as \"9870656767\",Email as \"Test3.vtest@gmail.com\", Password \"manisha123\" and ConfirmPassword \"manisha123\"",
+        "aggregatedDurations": {
+          "average": 6.41888301,
+          "median": 6.41888301
+        },
+        "durations": [
+          {
+            "duration": 6.41888301,
+            "location": "New_Login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter in using Username as \"([^\"]*)\" and Password \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enter in using Username as \"Test3.vtest@gmail.com\" and Password \"manisha123\"",
+        "aggregatedDurations": {
+          "average": 20.061649472,
+          "median": 20.061649472
+        },
+        "durations": [
+          {
+            "duration": 20.061649472,
+            "location": "New_Login.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on logout$",
+    "steps": [
+      {
+        "name": "Click on logout",
+        "aggregatedDurations": {
+          "average": 8.731331461,
+          "median": 8.731331461
+        },
+        "durations": [
+          {
+            "duration": 8.731331461,
+            "location": "New_Login.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^contact_us should be successful$",
+    "steps": [
+      {
+        "name": "contact_us should be successful",
+        "aggregatedDurations": {
+          "average": 5.77454596,
+          "median": 5.77454596
+        },
+        "durations": [
+          {
+            "duration": 5.77454596,
+            "location": "New_Login.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^login should be successful$",
+    "steps": [
+      {
+        "name": "login should be successful",
+        "aggregatedDurations": {
+          "average": 1.254102501,
+          "median": 1.254102501
+        },
+        "durations": [
+          {
+            "duration": 1.254102501,
+            "location": "New_Login.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user navigates to main \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user navigates to main \"http://egifts.atlantickw.com/\"",
+        "aggregatedDurations": {
+          "average": 42.687431501,
+          "median": 42.687431501
+        },
+        "durations": [
+          {
+            "duration": 42.687431501,
+            "location": "New_Login.feature:24"
+          }
+        ]
+      }
+    ]
+  }
+]

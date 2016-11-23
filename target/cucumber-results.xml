@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="178.285292">
+<testcase classname="E - Gifts Automation feature for Login" name="Registration Functionality for E - Gifts" time="79.914656">
+<system-out><![CDATA[Given user navigates to Registration URL "http://egifts.atlantickw.com/new-account".passed
+When user enter valid data as firstname as "Test3", Lastname as "Test3", Mobilenumber as "9870656767",Email as "Test3.vtest@gmail.com", Password "manisha123" and ConfirmPassword "manisha123".passed
+Then Registration should be successful......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="E - Gifts Automation feature for Login" name="Login Functionality for E - Gifts" time="41.177327">
+<system-out><![CDATA[Given user navigates to "http://egifts.atlantickw.com/login"................passed
+When user enter in using Username as "Test3.vtest@gmail.com" and Password "manisha123".passed
+Then login should be successful.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="E - Gifts Automation feature for Login" name="Go to Contact us page" time="57.193309">
+<system-out><![CDATA[Given user navigates to main "http://egifts.atlantickw.com/"................passed
+When Click on logout........................................................passed
+Then contact_us should be successful........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

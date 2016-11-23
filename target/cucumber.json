@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Registration Functionality for E - Gifts",
+        "description": "",
+        "id": "e---gifts-automation-feature-for-login;registration-functionality-for-e---gifts;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 71257590140,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to Registration URL \"http://egifts.atlantickw.com/new-account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://egifts.atlantickw.com/new-account",
+                  "offset": 36
+                }
+              ],
+              "location": "Registration.user_navigates_to_Registration_URL(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6418883010,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid data as firstname as \"Test3\", Lastname as \"Test3\", Mobilenumber as \"9870656767\",Email as \"Test3.vtest@gmail.com\", Password \"manisha123\" and ConfirmPassword \"manisha123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test3",
+                  "offset": 39
+                },
+                {
+                  "val": "Test3",
+                  "offset": 60
+                },
+                {
+                  "val": "9870656767",
+                  "offset": 85
+                },
+                {
+                  "val": "Test3.vtest@gmail.com",
+                  "offset": 107
+                },
+                {
+                  "val": "manisha123",
+                  "offset": 141
+                },
+                {
+                  "val": "manisha123",
+                  "offset": 174
+                }
+              ],
+              "location": "Registration.user_enter_valid_data_as_firstname_as_Lastname_as_Mobilenumber_as_Email_as_Password_and_ConfirmPassword(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2238182646,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Registration should be successful",
+            "match": {
+              "location": "Registration.Registration_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Login Functionality for E - Gifts",
+        "description": "",
+        "id": "e---gifts-automation-feature-for-login;login-functionality-for-e---gifts;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19861575204,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user navigates to \"http://egifts.atlantickw.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://egifts.atlantickw.com/login",
+                  "offset": 19
+                }
+              ],
+              "location": "login.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20061649472,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter in using Username as \"Test3.vtest@gmail.com\" and Password \"manisha123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test3.vtest@gmail.com",
+                  "offset": 33
+                },
+                {
+                  "val": "manisha123",
+                  "offset": 70
+                }
+              ],
+              "location": "login.user_enter_in_using_Username_as_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1254102501,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "login should be successful",
+            "match": {
+              "location": "login.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Go to Contact us page",
+        "description": "",
+        "id": "e---gifts-automation-feature-for-login;go-to-contact-us-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42687431501,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user navigates to main \"http://egifts.atlantickw.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://egifts.atlantickw.com/",
+                  "offset": 24
+                }
+              ],
+              "location": "Contact_us.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8731331461,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click on logout",
+            "match": {
+              "location": "Contact_us.click_on_logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5774545960,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "contact_us should be successful",
+            "match": {
+              "location": "Contact_us.contact_us_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "E - Gifts Automation feature for Login",
+    "description": "",
+    "id": "e---gifts-automation-feature-for-login",
+    "keyword": "Feature",
+    "uri": "New_Login.feature"
+  }
+]

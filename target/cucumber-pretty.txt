@@ -1,0 +1,37 @@
+Feature: E - Gifts Automation feature for Login
+
+  Scenario Outline: Registration Functionality for E - Gifts                                                                                                                                  [90m# New_Login.feature:3[0m
+    [36mGiven [0m[36muser navigates to Registration URL "<url>"[0m
+    [36mWhen [0m[36muser enter valid data as firstname as "<FirstName>", Lastname as "<LastName>", Mobilenumber as "<Mobile>",Email as "<Email>", Password "<password>" and ConfirmPassword "<ConfirmP>"[0m
+    [36mThen [0m[36mRegistration should be successful[0m
+
+    Examples: 
+
+  Scenario Outline: Registration Functionality for E - Gifts                                                                                                                                       [90m# New_Login.feature:10[0m
+    [32mGiven [0m[32muser navigates to Registration URL "[0m[32m[1mhttp://egifts.atlantickw.com/new-account[0m[32m"[0m                                                                                                            [90m# Registration.user_navigates_to_Registration_URL(String)[0m
+    [32mWhen [0m[32muser enter valid data as firstname as "[0m[32m[1mTest3[0m[32m", Lastname as "[0m[32m[1mTest3[0m[32m", Mobilenumber as "[0m[32m[1m9870656767[0m[32m",Email as "[0m[32m[1mTest3.vtest@gmail.com[0m[32m", Password "[0m[32m[1mmanisha123[0m[32m" and ConfirmPassword "[0m[32m[1mmanisha123[0m[32m"[0m [90m# Registration.user_enter_valid_data_as_firstname_as_Lastname_as_Mobilenumber_as_Email_as_Password_and_ConfirmPassword(String,String,String,String,String,String)[0m
+    [32mThen [0m[32mRegistration should be successful[0m                                                                                                                                                         [90m# Registration.Registration_should_be_successful()[0m
+
+  Scenario Outline: Login Functionality for E - Gifts                           [90m# New_Login.feature:13[0m
+    [36mGiven [0m[36muser navigates to "<url>"[0m
+    [36mWhen [0m[36muser enter in using Username as "<username>" and Password "<password>"[0m
+    [36mThen [0m[36mlogin should be successful[0m
+
+    Examples: 
+
+  Scenario Outline: Login Functionality for E - Gifts                                      [90m# New_Login.feature:20[0m
+    [32mGiven [0m[32muser navigates to "[0m[32m[1mhttp://egifts.atlantickw.com/login[0m[32m"[0m                           [90m# login.user_navigates_to(String)[0m
+    [32mWhen [0m[32muser enter in using Username as "[0m[32m[1mTest3.vtest@gmail.com[0m[32m" and Password "[0m[32m[1mmanisha123[0m[32m"[0m [90m# login.user_enter_in_using_Username_as_and_Password(String,String)[0m
+    [32mThen [0m[32mlogin should be successful[0m                                                        [90m# login.login_should_be_successful()[0m
+
+  Scenario Outline: Go to Contact us page [90m# New_Login.feature:23[0m
+    [36mGiven [0m[36muser navigates to main "<url>"[0m
+    [36mWhen [0m[36mClick on logout[0m
+    [36mThen [0m[36mcontact_us should be successful[0m
+
+    Examples: 
+
+  Scenario Outline: Go to Contact us page                        [90m# New_Login.feature:30[0m
+    [32mGiven [0m[32muser navigates to main "[0m[32m[1mhttp://egifts.atlantickw.com/[0m[32m"[0m [90m# Contact_us.user_navigates_to(String)[0m
+    [32mWhen [0m[32mClick on logout[0m                                         [90m# Contact_us.click_on_logout()[0m
+    [32mThen [0m[32mcontact_us should be successful[0m                         [90m# Contact_us.contact_us_should_be_successful()[0m
